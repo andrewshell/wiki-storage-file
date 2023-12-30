@@ -22,13 +22,12 @@
   },
   "homepage": "https://github.com/andrewshell/wiki-storage-s3#readme",
   "devDependencies": {
+    "async": "^3.2.4",
     "jest": "^29.6.2",
     "wiki-plugin-paragraph": "^0.3.0",
     "wiki-server": "^0.22.0"
   },
   "dependencies": {
-    "async": "^3.2.4",
-    "aws-sdk": "^2.1260.0",
-    "wiki-client": "^0.24.1"
+    "glob": "^10.3.10"
   }
 }
