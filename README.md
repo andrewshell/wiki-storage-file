@@ -1,2 +1,2 @@
-# wiki-storage-s3
-Amazon S3 storage for Federated Wiki
+# wiki-storage-file
+Rewritten file storage for Federated Wiki intended to be extended for other storage types
