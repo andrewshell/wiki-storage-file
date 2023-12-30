@@ -1,7 +1,7 @@
 {
-  "name": "wiki-storage-s3",
+  "name": "wiki-storage-file",
   "version": "0.1.0",
-  "description": "Amazon S3 storage for Federated Wiki",
+  "description": "Extendable file storage for Federated Wiki",
   "main": "index.js",
   "scripts": {
     "test": "jest"
