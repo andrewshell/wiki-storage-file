@@ -1,5 +1,5 @@
 const fs = require('fs');
-const pagehandler = require('./page');
+const pagehandler = require('./index');
 const path = require('path');
 const util = require('util');
 
@@ -13,7 +13,7 @@ function getArgv(argv) {
   }
 
   if (null == argv.page) {
-    argv.page = path.resolve(__dirname, '..', 'test-page');
+    argv.page = path.resolve(__dirname, 'test-page');
   }
 
   if (null == argv.db) {
@@ -29,7 +29,7 @@ function getArgv(argv) {
   }
 
   if (null == argv.packageDir) {
-    argv.packageDir = path.resolve(__dirname, '..', 'node_modules');
+    argv.packageDir = path.resolve(__dirname, 'node_modules');
   }
 
   if (null == argv.root) {
